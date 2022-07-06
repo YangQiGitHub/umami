@@ -9,6 +9,7 @@ services:
       DATABASE_URL: postgresql://umami:umami@db:5432/umami
       DATABASE_TYPE: postgresql
       HASH_SALT: replace-me-with-a-random-string
+      TRACKER_SCRIPT_NAME: mainfile
     depends_on:
       - db
     restart: always
